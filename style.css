@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin-top: 80px;
+  margin-left: 270px;
+  margin-right: 100px;
+  position: fixed;
+  font-size: 45px;
+  color: rgb(102, 39, 138);
+  text-decoration: none;
+  font-weight: 1000;
+}
+
+.Points{
+  position: fixed;
+  top: 10px;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+
+.startGameBtn{
+  margin-top: 390px;
+  width: 150px;
+  height: 60px;
+  border-radius: 25px;
+  border: 5px solid burlywood;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+}
+
+.soundOff{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px solid rgb(54, 238, 238);
+    font-size: 12px;
+    font-weight: 800;
+    position: fixed;
+    left: 200px;
+    top: 80px;
+    color: rgb(102, 39, 138);
+}
+
+.soundOff:hover {
+  background-color: rgb(234, 199, 252);
+}
+
+.startGameBtn:hover {
+  background-color: rgb(156, 243, 243);
+}
+
+.items{ 
+background-image: url(img/space-cartoons3.png);
+ width: 640px;
+ height: 480px;
+ margin-left: 190px;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 35px;
+
+}
+.hideBtn{
+  display: none;
+}
+.btnPortfolio{
+  padding: 15px 32px;
+  margin-top: 170px;
+  margin-left: 210px;
+  width: 270px;
+  height: 60px;
+  border-radius: 25px;
+  border: 5px solid burlywood;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(102, 39, 138);
+  background-color: rgb(156, 243, 243);
+}
+.scoreEl {
+  position: fixed;
+  color: rgb(102, 39, 138);
+  left: 200px;
+  top: 20px;
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+.linkPlio {
+  position: fixed;
+  color: white;
+  left: 300px;
+  top: 160px;
+  font-size: 16px;
+
+}
+
+.hide {
+    display: none;
+}
