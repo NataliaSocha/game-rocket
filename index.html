@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Gra rakieta</title>
-</head>
-<body onload="startGame()">
-  <div> 
-    <p id="scoreEl" class="scoreEl"><span>Score:</span><span> 0</span></p>
-    <button class="soundOff" id="soundOff">Sound Off</button>
-<canvas id="canvas" class="canvas" > </canvas>
-<div class="Points" id="modalEl" >
-  <div class="items">
-
+  </head>
+  <body onload="startGame()">
     <div>
-      <button id="startGameBtn" class="startGameBtn">Start game</button>
+      <p id="scoreEl" class="scoreEl"><span>Score:</span><span> 0</span></p>
+      <button class="soundOff" id="soundOff">Sound Off</button>
+      <canvas id="canvas" class="canvas"> </canvas>
+      <div class="Points" id="modalEl">
+        <div class="items">
+          <div>
+            <button id="startGameBtn" class="startGameBtn">Start game</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+    <p class="linkPlio hide" id="linkPlio">
+      <span>
+        <a
+          id="btnPortfolio"
+          class="btnPortfolio hideBtn"
+          href="https://github.com/NataliaSocha"
+          target="_blank"
+          rel="noopener noreferrer"
+          >click to see my portfolio. Natalia Socha</a
+        >
+        <a
+          href="https://github.com/NataliaSocha"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          YOU WIN!
+        </a></span
+      >
+    </p>
 
-</div>
-      <p class="linkPlio hide" id="linkPlio"><span>
-        <a id="btnPortfolio" class="btnPortfolio hideBtn" href="https://github.com/NataliaSocha" target="_blank">click to see my portfolio. Natalia Socha</a>
-        <a href="https://github.com/NataliaSocha" target="_blank"> YOU WIN! </a></span></p>  
-
-        
-
-<script src="index.js"></script> 
-</body>
+    <script src="index.js"></script>
+    <script src="gameKeysLogic.js"></script>
+    <script src="drawGame.js"></script>
+    <script src="soundGame.js"></script>
+  </body>
 </html>
